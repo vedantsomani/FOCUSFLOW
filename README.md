@@ -69,33 +69,7 @@ FocusFlow works without Azure credentials! In demo mode:
 - AI outputs are simulated with realistic examples
 - All features remain fully functional
 
-## 🔧 Configuration
 
-### Environment Variables
-
-```env
-# Database
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/focusflow"
-
-# Redis
-REDIS_URL="redis://localhost:6379"
-
-# Auth (NextAuth)
-NEXTAUTH_URL="http://localhost:3000"
-NEXTAUTH_SECRET="your-secret-here"
-
-# Email (for magic link auth)
-EMAIL_SERVER="smtp://..."
-EMAIL_FROM="noreply@focusflow.app"
-
-# Azure (optional - enables full features)
-AZURE_STORAGE_CONNECTION_STRING="..."
-AZURE_SPEECH_KEY="..."
-AZURE_SPEECH_REGION="eastus"
-AZURE_OPENAI_ENDPOINT="..."
-AZURE_OPENAI_KEY="..."
-AZURE_OPENAI_DEPLOYMENT="gpt-4"
-```
 
 ## 📁 Project Structure
 
